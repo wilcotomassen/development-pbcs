@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DevPCBpackages:bb2x4 J1
+L DevPCB-packages:bb2x4 J1
 U 1 1 5BC44432
 P 6100 2550
 F 0 "J1" H 6125 2765 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 6100 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DevPCBpackages:u2x4 U1
+L DevPCB-packages:u2x4 U1
 U 1 1 5BC444C0
 P 6100 2500
 F 0 "U1" H 6100 2533 50  0000 C CNN
