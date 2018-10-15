@@ -116,9 +116,11 @@
     (add_net "Net-(J1-Pad8)")
   )
 
-  (module DevPc:soic-8 (layer F.Cu) (tedit 5BC4D1EC) (tstamp 5BFAAF15)
+  (module DevPc:soic-8 (layer F.Cu) (tedit 5BC4D611) (tstamp 5BFAAF15)
     (at 123.19 79.248)
+    (tags "soic soic8 soic-8 soic-8-n jedec")
     (path /5BC444C0)
+    (attr smd)
     (fp_text reference U1 (at 0.127 6.604) (layer F.SilkS) hide
       (effects (font (size 0.4 0.4) (thickness 0.1)))
     )
@@ -148,6 +150,11 @@
       (net 2 "Net-(J1-Pad2)") (solder_mask_margin 0.1))
     (pad 1 smd rect (at -2.54 1.27 90) (size 0.7 3) (layers F.Cu F.Paste F.Mask)
       (net 1 "Net-(J1-Pad1)") (solder_mask_margin 0.1))
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm.step
+      (offset (xyz 0 -3.2 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module DevPc:bb_2x4 (layer F.Cu) (tedit 5BC387FD) (tstamp 5BFAAF93)
