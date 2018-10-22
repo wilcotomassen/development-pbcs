@@ -12,3 +12,5 @@ and on the other side one of package type:
 
 * MSOP-16 or
 * TSSOP-16
+
+![PCB Render](render.png)
