@@ -10,10 +10,10 @@ boards, programmers, etc.
 To find a matching breakout board for your IC or module, 
 reference the following table
 
-| IC or module        | Breakout board        |
-|---------------------|-----------------------|
-| SOIC-16             | [so16](/so16)         |
-| SOP-16              | [so16](/so16)         |
-| SO-16               | [so16](/so16)         |
-| MSOP-16             | [so16](/so16)         |
-| TSSOP-16            | [so16](/so16)         |
+| IC or module               | Breakout board        |
+|----------------------------|-----------------------|
+| IC in SOIC-16 package      | [so16](/so16)         |
+| IC in SOP-16 package       | [so16](/so16)         |
+| IC in SO-16 package        | [so16](/so16)         |
+| IC in MSOP-16 package      | [so16](/so16)         |
+| IC in TSSOP-16 package     | [so16](/so16)         |
